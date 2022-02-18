@@ -1,0 +1,16 @@
+appname: wetime
+server: 137.220.61.135
+httpport: 6520
+nginxport: 6580
+
+db:
+  name:     wetime
+  user:     henry
+  password: password
+  port:     27077
+
+contacts:
+  - name:  jack
+    email: jack@test.com
+  - name:  tom
+    email: tom@test.com
