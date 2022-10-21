@@ -195,8 +195,6 @@ func GetPostApi(c *gin.Context) {
 }
 func GetRCTokenApi(c *gin.Context) {
 	userID := c.Param("id")
-	//resp, err := http.PostForm("http://api-cn.ronghub.com/user/getToken.json?userId=2",
-	//url.Values{"key": {"Value"}, "id": {"123"}})
 
 	var baseURL = "http://api-cn.ronghub.com/user/getToken.json"
 	var requestURL = fmt.Sprintf("%s?userId=%s", baseURL, userID)
